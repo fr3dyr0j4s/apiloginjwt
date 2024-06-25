@@ -1,0 +1,6 @@
+# ignorar el directorio de modulos de node
+./node_modules
+
+# ignorar archivos json para evitar subir datos erroneos al servidor
+*.json
+
