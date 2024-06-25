@@ -1,6 +1,16 @@
 # ignorar el directorio de modulos de node
-./node_modules
+.node_modules
 
-# ignorar archivos json para evitar subir datos erroneos al servidor
+# ignorar archivos json package
 *.json
 
+#ignorar archivos json de productos y usuarios
+.public/db/*.json
+
+#ignorar archivos css y js de bootstrap
+.public/css/bootstrap.min.css
+.public/js/bootstrap.bundle.min.js
+.public/js/bootstrap.min.js
+
+#ignorar cambio en css de usuario
+.public/css/styles.css
